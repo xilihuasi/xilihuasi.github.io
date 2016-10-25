@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Xilihuasi`s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-10-25T02:16:54.160Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>xilihuasi</name>
+    <email>xilihuasi24@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to build Hexo</title>
+    <link href="http://yoursite.com/2016/10/24/How-to-build-Hexo/"/>
+    <id>http://yoursite.com/2016/10/24/How-to-build-Hexo/</id>
+    <published>2016-10-24T06:38:10.000Z</published>
+    <updated>2016-10-25T02:16:54.160Z</updated>
+    
+    <content type="html"><![CDATA[<p>本教程默认你已经搭建好了Node和Git环境</p>
+<h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>在控制台执行如下命令安装hexo：<br><a id="more"></a><br>npm install -g hexo</p>
+<blockquote>
+<p><em>安装在当前用户目录下，是hexo的全局安装</em></p>
+</blockquote>
+<h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>执行初始化命令，初始化hexo到指定目录：<br>hexo init <folder><br>或者cd到指定目录执行初始化命令：<br>hexo init</folder></p>
+<h2 id="step-3"><a href="#step-3" class="headerlink" title="step 3"></a>step 3</h2><p>cd到你的初始化目录，执行如下命令生成静态页面至<em>hexo\public</em>目录：<br>hexo generate</p>
+<blockquote>
+<p><em>命令完成后即可在<em>hexo\public</em>目录下看到当前日期默认生成的html文件，也可在<em>hexo\source__posts</em>目录下看到md文件。不要急，下一步就可以看到hexo在浏览器中访问的效果啦。</em></p>
+</blockquote>
+<h2 id="step-4"><a href="#step-4" class="headerlink" title="step 4"></a>step 4</h2><p>执行如下命令启动本地服务：<br>hexo server<br>在浏览器中输入(<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>) 就可以预览搭建成功的hexo啦！</p>
+<h2 id="发表第一篇文章"><a href="#发表第一篇文章" class="headerlink" title="发表第一篇文章"></a>发表第一篇文章</h2><p>执行new命令新建文章，生成指定名称的文章至hexo\source\ _posts\postName.md：<br>hexo new [layout] “postName”<br>其中layout是可选参数，默认值为post。在scaffolds目录下查看可选择的layout，当然也可以新建或编辑。 </p>
+<p><img src="http://ofjlqteaa.bkt.clouddn.com/Hexo-Step5.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本教程默认你已经搭建好了Node和Git环境&lt;/p&gt;
+&lt;h2 id=&quot;step-1&quot;&gt;&lt;a href=&quot;#step-1&quot; class=&quot;headerlink&quot; title=&quot;step 1&quot;&gt;&lt;/a&gt;step 1&lt;/h2&gt;&lt;p&gt;在控制台执行如下命令安装hexo：&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/10/24/hello-world/"/>
+    <id>http://yoursite.com/2016/10/24/hello-world/</id>
+    <published>2016-10-24T02:55:15.621Z</published>
+    <updated>2016-10-25T02:18:38.459Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
