@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-28T15:36:57.000Z</updated>
+  <updated>2017-02-28T15:42:31.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,21 +20,24 @@
     <link href="http://yoursite.com/2017/02/28/Sass%E7%94%A8%E6%B3%95%E4%BB%8B%E7%BB%8D/"/>
     <id>http://yoursite.com/2017/02/28/Sass用法介绍/</id>
     <published>2017-02-28T15:20:10.000Z</published>
-    <updated>2017-02-28T15:36:57.000Z</updated>
+    <updated>2017-02-28T15:42:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。</p>
+    <content type="html"><![CDATA[<p>前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。<a id="more"></a></p>
 <h2 id="Sass用法介绍"><a href="#Sass用法介绍" class="headerlink" title="Sass用法介绍"></a>Sass用法介绍</h2><pre><code>什么是Sass？GitHub上是这样介绍的，Sass让CSS再一次变得有趣。Sass是CSS的拓展，添加了嵌套规则，变量，混合，选择器继承等特性。
 </code></pre>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。&lt;/p&gt;
-&lt;h2 id=&quot;Sass用法介绍&quot;&gt;&lt;a href=&quot;#
+      &lt;p&gt;前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。
     
     </summary>
     
+      <category term="css" scheme="http://yoursite.com/categories/css/"/>
     
-      <category term="css sass" scheme="http://yoursite.com/tags/css-sass/"/>
+    
+      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="sass" scheme="http://yoursite.com/tags/sass/"/>
     
   </entry>
   
