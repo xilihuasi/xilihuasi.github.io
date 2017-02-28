@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-25T14:53:20.793Z</updated>
+  <updated>2017-02-28T15:36:57.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Sass用法介绍</title>
+    <link href="http://yoursite.com/2017/02/28/Sass%E7%94%A8%E6%B3%95%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://yoursite.com/2017/02/28/Sass用法介绍/</id>
+    <published>2017-02-28T15:20:10.000Z</published>
+    <updated>2017-02-28T15:36:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。</p>
+<h2 id="Sass用法介绍"><a href="#Sass用法介绍" class="headerlink" title="Sass用法介绍"></a>Sass用法介绍</h2><pre><code>什么是Sass？GitHub上是这样介绍的，Sass让CSS再一次变得有趣。Sass是CSS的拓展，添加了嵌套规则，变量，混合，选择器继承等特性。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前端发展到今天，工程化已经是不可避免的存在。css作为前端的脸面，落后的语法一直被前端开发者所诟病。直到Sass,Less,Stylus等预处理工具的出现，才使这一问题得到缓解。接下来就以Sass为例来介绍。&lt;/p&gt;
+&lt;h2 id=&quot;Sass用法介绍&quot;&gt;&lt;a href=&quot;#
+    
+    </summary>
+    
+    
+      <category term="css sass" scheme="http://yoursite.com/tags/css-sass/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo部署到github</title>
     <link href="http://yoursite.com/2016/11/25/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github/"/>
     <id>http://yoursite.com/2016/11/25/hexo部署到github/</id>
     <published>2016-11-25T02:56:34.000Z</published>
-    <updated>2016-11-25T14:53:20.793Z</updated>
+    <updated>2016-11-28T01:52:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>之前介绍了如何搭建本地hexo环境，相信很多小朋友已经搭建成功了。但是写了博客只放在本地不跟大家分享肯定不是我们想要的，本文就手把手教你怎样把hexo部署到github Page上跟大家分享你的文章。<a id="more"></a>为方便描述，文内所有的username表示你的GitHub用户名。</p>
 <h2 id="创建GitHub-Pages"><a href="#创建GitHub-Pages" class="headerlink" title="创建GitHub Pages"></a>创建GitHub Pages</h2><p>GitHub Pages的目标在于让用户可以轻易向世界分享有趣的事情，即使你不懂代码也可以轻松创建美观的页面，任何人通过浏览器都可以访问。<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>主页有详细的教程，这里就不重复造轮子了。</p>
@@ -49,7 +72,7 @@
 <p> 遇到了如上错误。别怕此时执行：<code>eval &#39;ssh-agent -s&#39;</code>（注：<em>使用eval 是为了执行ssh-agent 输出的设置环境变量的bash 命令，以确保ssh-add 可以通过 SSH_AUTH_SOCK 环境变量找到ssh-agent</em>）再执行ssh-add即可，输出结果如下：</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ eval &apos;ssh-agent -s&apos;</div><div class="line">Agent pid 16192</div><div class="line">$ssh-add</div><div class="line">Identity added: /c/Users/Admin/.ssh/id_rsa (/c/Users/Admin/.ssh/id_rsa)</div></pre></td></tr></table></figure>
 </li>
-<li><p>nothing to commit,working tree clean.Could not read Username for ‘<a href="https://github.com&#39;：Invalid" target="_blank" rel="external">https://github.com&#39;：Invalid</a> argument<br> 执行<code>hexo d</code>部署时，出现以上错误。原因是没有在hexo目录中初始化git，需初始化并建立远程仓库。提示Could not read Username for ‘<a href="https://github.com&#39;是因为第三步配置deploy:repo写成了https://github.com/xilihuasi/xilihuasi.github.io.git，应参考步骤3配置。" target="_blank" rel="external">https://github.com&#39;是因为第三步配置deploy:repo写成了https://github.com/xilihuasi/xilihuasi.github.io.git，应参考步骤3配置。</a></p>
+<li><p>nothing to commit,working tree clean.Could not read Username for ‘https<nolink>://github.com’：Invalid argument<br> 执行<code>hexo d</code>部署时，出现以上错误。原因是没有在hexo目录中初始化git，需初始化并建立远程仓库。提示Could not read Username for ‘https<nolink>://github.com’是因为第三步配置deploy:repo写成了https<nolink>://github.com/xilihuasi/xilihuasi.github.io.git，应参考步骤3配置。</nolink></nolink></nolink></p>
 <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2></li>
 </ol>
 <ul>
